@@ -22,3 +22,5 @@ function App() {
 }
 
 export default App;
+
+// parando na aula 01 aos 1: 20: 50(passo tela de formulario)
