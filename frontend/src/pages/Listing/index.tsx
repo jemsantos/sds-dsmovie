@@ -48,4 +48,4 @@ function Listing() {
 
 }
 
-export default Listing;
+export default Listing; // parei em 40min45seg
