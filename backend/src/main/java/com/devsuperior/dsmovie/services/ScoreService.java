@@ -25,7 +25,6 @@ public class ScoreService {
 
 	@Autowired
 	private MovieRepository movieRepository;
-	//private ScoreRepository repository;
 
 	@Autowired
 	private UserRepository userRepository;
@@ -51,7 +50,7 @@ public class ScoreService {
 		score.setValue(dto.getScore());
 		
 		score = scoreRepository.saveAndFlush(score);
-		
+
 		double sum = 0.0;
 		for (Score s: movie.getScores()) {
 			sum = sum + s.getValue();

@@ -29,7 +29,6 @@ public class User {
 	 * @param email
 	 */
 	public User(Long id, String email) {
-		super();
 		this.id = id;
 		this.email = email;
 	}
